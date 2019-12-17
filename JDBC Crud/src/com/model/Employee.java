@@ -6,6 +6,7 @@ public class Employee {
 	private String address;
 	private  String username;
 	private String password;
+	private String Email;
 	public int getEid() {
 		return eid;
 	}
@@ -36,7 +37,12 @@ public class Employee {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+	public int getEmail() {
+		return Email;
+	}
+	public void setEmail(int Email) {
+		this.Email = Email;
+	}
 	
 
 }
